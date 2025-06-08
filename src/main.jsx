@@ -6,7 +6,7 @@ import settinglogo from './assets/setting icon.svg'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1>Pomodoro</h1>
+    <h1 className="text-3xl font-bold underline">Pomodoro</h1>
     < TimeOption />
     <TimerSection />
     <div>
