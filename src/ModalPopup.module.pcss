@@ -1,0 +1,92 @@
+.mycontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.25rem;  /* 1.25rem = 20px */
+  padding-right: 1.25rem; /* 1.25rem = 20px */
+  margin-top: 1.25rem;    /* 1.25rem = 20px */
+}
+.texts {
+    color: #636363;     /* custom gray */
+  font-weight: bold;
+}
+
+.input {
+  width: 40px;
+  height: 35px;
+  background-color: #EEEEEE;       /* bg-white-EE (asumsi) */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  text-align: center;
+  font-size: 12px;                 /* text-M-12 (asumsi = 12px) */
+  font-weight: bold;
+  color: rgba(21, 21, 21, 0.9);    /* text-black-15-0.9 (asumsi) */
+
+  outline: none;
+}
+.KeyboardArrow {
+  display: flex;
+  flex-direction: column;
+  width: 72px;
+  height: 35px;
+
+  background-color: #EEEEEE;         /* bg-white-EE */
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 14px;                     /* text-M-14 (asumsi 14px) */
+  color: rgba(21, 21, 21, 0.9);        /* text-black-15-0.9 (asumsi) */
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin-top: 0.75rem;                 /* mt-3 → 12px atau 0.75rem */
+}
+
+.button {
+  background-color: #EEEEEE;     /* bg-white-EE (asumsi warna custom) */
+  width: 2.75rem;                /* w-11 = 11 * 0.25rem = 2.75rem */
+  height: 2.75rem;               /* h-11 = 11 * 0.25rem */
+  border-radius: 9999px;         /* rounded-full */
+  
+  font-weight: bold;
+  color: #636363;                /* text-[#636363] */
+
+}
+
+.button:hover {
+  background-color: #1E2140;     /* bg-darkblue-1E (asumsi warna custom) */
+}
+
+.TextFont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  transition: color 200ms ease-in-out;
+}
+
+.TextFont:hover {
+  color: #EEF1FA;
+}
+
+.fontandcolor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.25rem;    
+  gap: 2.5rem;             
+}
+
+.hr {
+  border: 1px solid #DEDEDE;  
+  width: 295px;
+  margin-left: auto;
+  margin-right: auto;
+}
