@@ -34,36 +34,18 @@ export default function ModalPopup() {
                         {/* Pomodoro text input */}
                         <div className={style.mycontainer}>
                             <p className={style.texts}>pomodoro</p>
-                            <div className="flex">
-                                <input type="text" className={style.input} placeholder="25" id="pomodoroInput" />
-                                <div className={style.KeyboardArrow}>
-                                    <button className="ml-9"><img src={KeyboardArrowUp} alt="" className="w-4 h-4" /></button>
-                                    <button className="ml-9"><img src={KeyboardArrowDown} alt="" className="w-4 h-4" /></button>
-                                </div>
-                            </div>
+                            <input type="number" className="w-[50px] h-[35px] bg-[#EEEEEE] text-center text-[12px] font-bold text-[rgba(21,21,21,0.7)] outline-none rounded-[10px] pr-1" placeholder="25" id="pomodoroInput" />
                         </div>
                         {/* short break text input */}
                         <div className={style.mycontainer}>
                             <p className={style.texts}>short break</p>
-                            <div className="flex">
-                                <input type="text" className={style.input} placeholder="5" />
-                                <div className={style.KeyboardArrow}>
-                                    <button className="ml-9"><img src={KeyboardArrowUp} alt="" className="w-4 h-4" /></button>
-                                    <button className="ml-9"><img src={KeyboardArrowDown} alt="" className="w-4 h-4" /></button>
-                                </div>
-                            </div>
+                            <input type="number" className="w-[50px] h-[35px] bg-[#EEEEEE] text-center text-[12px] font-bold text-[rgba(21,21,21,0.7)] outline-none rounded-[10px] pr-1" placeholder="5" id="pomodoroInput" />
                         </div>
                     </div>
                     {/* long break text input */}
                     <div className={style.mycontainer}>
                         <p className={style.texts}>long break</p>
-                        <div className="flex">
-                            <input type="text" className={style.input} placeholder="15" />
-                            <div className={style.KeyboardArrow}>
-                                <button className="ml-9"><img src={KeyboardArrowUp} alt="" className="w-4 h-4" /></button>
-                                <button className="ml-9"><img src={KeyboardArrowDown} alt="" className="w-4 h-4" /></button>
-                            </div>
-                        </div>
+                        <input type="number" className="w-[50px] h-[35px] bg-[#EEEEEE] text-center text-[12px] font-bold text-[rgba(21,21,21,0.7)] outline-none rounded-[10px] pr-1" placeholder="15" id="pomodoroInput" />
                     </div>
                     <hr className={`${style.hr} mt-5`} />
 

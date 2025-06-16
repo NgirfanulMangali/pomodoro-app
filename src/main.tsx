@@ -15,8 +15,6 @@ if (rootElement) {
       < TimeOption />
       <TimerSection />
       < ModalPopup />
-
-
     </StrictMode>,
   )
 }
