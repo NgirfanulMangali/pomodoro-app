@@ -1,5 +1,8 @@
-export default function TimerSection() {
 
+
+
+
+export default function TimerSection() {
 
 
 
@@ -15,7 +18,9 @@ export default function TimerSection() {
                     </button>
                 </div>
             </div>
+
         </div>
+
     )
 }
 

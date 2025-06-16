@@ -1,9 +1,10 @@
-import { StrictMode } from 'react'
+import { StrictMode, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import TimeOption from './TimeOption.tsx'
 import TimerSection from './TimerSection.tsx'
-import settinglogo from './assets/setting icon.svg'
+
 import ModalPopup from './ModalPopup.tsx'
+
 
 
 const rootElement = document.getElementById('root');
@@ -14,9 +15,7 @@ if (rootElement) {
       < TimeOption />
       <TimerSection />
       < ModalPopup />
-      <div className="flex justify-center mt-14 ">
-        <img src={settinglogo} alt="settinglogo" className="w-8 h-8" />
-      </div>
+
 
     </StrictMode>,
   )
