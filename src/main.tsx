@@ -1,7 +1,7 @@
-import { StrictMode, useState } from 'react'
+import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import TimeOption from './TimeOption.tsx'
-import TimerSection from './TimerSection.tsx'
+
 
 import ModalPopup from './ModalPopup.tsx'
 
@@ -13,7 +13,6 @@ if (rootElement) {
     <StrictMode>
       <h1 className="font-bold text-M-32 text-white-8D text-center my-9">Pomodoro</h1>
       < TimeOption />
-      <TimerSection />
       < ModalPopup />
     </StrictMode>,
   )
